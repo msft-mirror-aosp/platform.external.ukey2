@@ -40,7 +40,7 @@ java_library {
   },
   srcs: [
     "**/*.proto",
-    "**/*.java",
+    "src/main/java/**/*.java",
   ],
   libs: [
     "guava",
