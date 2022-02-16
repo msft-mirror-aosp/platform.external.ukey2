@@ -163,7 +163,7 @@ public class Ukey2HandshakeTest extends TestCase {
 
   /**
    * Tests that verification codes are different for different handshake runs. Also tests a full
-   * on-path attack.
+   * man-in-the-middle attack.
    */
   public void testVerificationCodeUniqueToSession() throws Exception {
     if (KeyEncoding.isLegacyCryptoRequired()) {
